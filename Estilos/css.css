@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D65B48;
+    text-align: center;
+    padding: 3vh;
+    color: #1F2020;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o container da navegação */
+.nav-bar {
+    display: flex; /* Usa Flexbox para alinhar os itens em linha */
+    justify-content: space-evenly; /* Espaça os itens igualmente com espaçamento ao redor */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    background-color: #1F2020; /* Cor de fundo da barra de navegação */
+    padding: 10px; /* Adiciona um pouco de padding */
+}
+
+/* Estiliza os links dentro da navegação */
+.nav-bar a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: #1F2020; /* Remove o sublinhado dos links */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 0px; /* Adiciona espaçamento ao redor do texto */
+
+}
+
+/* Adiciona efeito ao passar o mouse sobre os links */
+.nav-bar a:hover {
+    background-color: #6E453B; /* Cor de fundo ao passar o mouse */
+}
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
